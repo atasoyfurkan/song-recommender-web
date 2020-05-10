@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/song-recommendation/static/css/main.560de9c1.chunk.css",
-    "main.js": "/song-recommendation/static/js/main.a02c9061.chunk.js",
-    "main.js.map": "/song-recommendation/static/js/main.a02c9061.chunk.js.map",
-    "runtime-main.js": "/song-recommendation/static/js/runtime-main.0bac473a.js",
-    "runtime-main.js.map": "/song-recommendation/static/js/runtime-main.0bac473a.js.map",
-    "static/css/2.70afdaed.chunk.css": "/song-recommendation/static/css/2.70afdaed.chunk.css",
-    "static/js/2.71aaf719.chunk.js": "/song-recommendation/static/js/2.71aaf719.chunk.js",
-    "static/js/2.71aaf719.chunk.js.map": "/song-recommendation/static/js/2.71aaf719.chunk.js.map",
-    "index.html": "/song-recommendation/index.html",
-    "precache-manifest.25fc9a2d3132a6f48593aa561549b7a3.js": "/song-recommendation/precache-manifest.25fc9a2d3132a6f48593aa561549b7a3.js",
-    "service-worker.js": "/song-recommendation/service-worker.js",
-    "static/css/2.70afdaed.chunk.css.map": "/song-recommendation/static/css/2.70afdaed.chunk.css.map",
-    "static/css/main.560de9c1.chunk.css.map": "/song-recommendation/static/css/main.560de9c1.chunk.css.map",
-    "static/js/2.71aaf719.chunk.js.LICENSE.txt": "/song-recommendation/static/js/2.71aaf719.chunk.js.LICENSE.txt",
-    "static/media/icofont.min.css": "/song-recommendation/static/media/icofont.f6ab04ae.woff"
+    "main.css": "/song-recommender/static/css/main.07de19ae.chunk.css",
+    "main.js": "/song-recommender/static/js/main.3c6bd208.chunk.js",
+    "main.js.map": "/song-recommender/static/js/main.3c6bd208.chunk.js.map",
+    "runtime-main.js": "/song-recommender/static/js/runtime-main.76934b7d.js",
+    "runtime-main.js.map": "/song-recommender/static/js/runtime-main.76934b7d.js.map",
+    "static/css/2.70afdaed.chunk.css": "/song-recommender/static/css/2.70afdaed.chunk.css",
+    "static/js/2.6d3e4980.chunk.js": "/song-recommender/static/js/2.6d3e4980.chunk.js",
+    "static/js/2.6d3e4980.chunk.js.map": "/song-recommender/static/js/2.6d3e4980.chunk.js.map",
+    "index.html": "/song-recommender/index.html",
+    "precache-manifest.39fa22426326d1be4361dbeeb04d1f3d.js": "/song-recommender/precache-manifest.39fa22426326d1be4361dbeeb04d1f3d.js",
+    "service-worker.js": "/song-recommender/service-worker.js",
+    "static/css/2.70afdaed.chunk.css.map": "/song-recommender/static/css/2.70afdaed.chunk.css.map",
+    "static/css/main.07de19ae.chunk.css.map": "/song-recommender/static/css/main.07de19ae.chunk.css.map",
+    "static/js/2.6d3e4980.chunk.js.LICENSE.txt": "/song-recommender/static/js/2.6d3e4980.chunk.js.LICENSE.txt",
+    "static/media/icofont.min.css": "/song-recommender/static/media/icofont.f6ab04ae.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bac473a.js",
+    "static/js/runtime-main.76934b7d.js",
     "static/css/2.70afdaed.chunk.css",
-    "static/js/2.71aaf719.chunk.js",
-    "static/css/main.560de9c1.chunk.css",
-    "static/js/main.a02c9061.chunk.js"
+    "static/js/2.6d3e4980.chunk.js",
+    "static/css/main.07de19ae.chunk.css",
+    "static/js/main.3c6bd208.chunk.js"
   ]
 }
