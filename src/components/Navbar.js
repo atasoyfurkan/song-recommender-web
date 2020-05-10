@@ -34,7 +34,7 @@ class Navbar extends Component {
     return (
       <div className="bg-header">
         <Row className="container" justify="space-between">
-          <Col className="logo">
+          <Col className="logo" onClick={() => window.location = "/song-recommender"}>
             <Space align="baseline">
               <i className="icofont-music-alt icofont-2x gray"></i>
               <Text className="gray" style={{ fontSize: 23, fontWeight: 800 }}>Song Recommender</Text>
