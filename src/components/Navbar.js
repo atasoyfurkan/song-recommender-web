@@ -19,7 +19,7 @@ class Navbar extends Component {
       return (
         <Header style={{ padding: 0 }}>
           <Menu className="bg-header" theme="dark" mode={props.vertical ? "vertical" : "horizontal"} defaultSelectedKeys={['2']}>
-            <Menu.Item onClick={() => this.setState({ visible: true })} key="1">nav 1</Menu.Item>
+            <Menu.Item key="1">nav 1</Menu.Item>
             <Menu.Item key="2">nav 2</Menu.Item>
             <Menu.Item key="3">nav 3</Menu.Item>
           </Menu>

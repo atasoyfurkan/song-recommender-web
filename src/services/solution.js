@@ -29,12 +29,12 @@ export const discoverPlaylist = (likedGenres, dislikedGenres, argFeatures) => {
 const checkIntersection = (list1, list2) => {
   for (let a of list1)
     for (let b of list2)
-      if (a.includes(b)) return true;
+      if (a.toLowerCase().includes(b.toLowerCase())) return true;
 
   return false;
 }
 
-export const getDistance = (features, other) => {
+const getDistance = (features, other) => {
   const filtered = [other[1] * 10, other[2] * 10, other[5] * 10, other[6] * 10, other[7] * 10, other[8] * 10, other[9] * 10, other[10] * 10];
   let distance = 0;
 
@@ -44,7 +44,7 @@ export const getDistance = (features, other) => {
   return Math.sqrt(distance);
 }
 
-export const getTrackGenres = (artistNames) => {
+const getTrackGenres = (artistNames) => {
   let genres = [];
   for (let artistName of artistNames) {
     const found = artists.find((artist) => artist[0] === artistName);
@@ -52,3 +52,12 @@ export const getTrackGenres = (artistNames) => {
   }
   return genres;
 };
+
+export const getAllGenres = () => {
+  let genres = new Set();
+  for (let artist of artists) {
+    for (let g of artist[1]) genres.add(g);
+  }
+
+  return Array.from(genres).sort();
+}

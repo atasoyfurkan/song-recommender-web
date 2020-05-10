@@ -16,7 +16,8 @@ class MySteps extends Component {
     features: { danceability: 0, energy: 0, mode: 0, speechiness: 0, acousticness: 0, instrumentalness: 0, liveness: 0, valence: 0 },
     loading: false,
     done: false,
-    playlist: []
+    playlist: [],
+    allGenres: ["Electro", "Rock", "Jazz", "Dubstep", "Blues", "Techno", "Country Music", "Indie Rock", "Pop", "Hip Hop", "Rap", "Metal"].sort()
   };
 
   handleSubmit = async () => {
@@ -34,8 +35,6 @@ class MySteps extends Component {
 
   render() {
     const { current, steps } = this.state;
-
-    console.log(this.state.loading);
 
     return (
       <React.Fragment>
@@ -79,7 +78,7 @@ class MySteps extends Component {
             renderItem={item => (
               <List.Item>
                 <List.Item.Meta
-                  title={`${item.artistNames[0]} - ${item.trackName}`}
+                  title={item.artistNames[0] + " - " + item.trackName}
                 />
               </List.Item>
             )}
@@ -95,15 +94,12 @@ class MySteps extends Component {
       <Row className={`${this.state.current !== 0 && "d-none"} mt-5`} align="center">
         <Col lg={8} md={10} span={20}>
           <Select
-            mode="multiple"
+            mode="tags"
             style={{ width: "100%" }}
             placeholder="Select Liked Genres"
             onChange={(value) => this.setState({ likedGenres: value })}
           >
-            <Option key={"rock"}>Rock</Option>
-            <Option key={"metal"}>Metal</Option>
-            <Option key={"hip hop"}>Hip Hop</Option>
-            <Option key={"rap"}>Rap</Option>
+            {this.state.allGenres.map(genre => <Option key={genre}>{genre}</Option>)}
           </Select>
         </Col>
       </Row >
@@ -115,15 +111,12 @@ class MySteps extends Component {
       <Row className={`${this.state.current !== 1 && "d-none"} mt-5`} align="center">
         <Col lg={8} md={10} span={20}>
           <Select
-            mode="multiple"
+            mode="tags"
             style={{ width: "100%" }}
             placeholder="Select Disliked Genres"
             onChange={this.handleSelectChange}
           >
-            <Option key={"rock"}>Rock</Option>
-            <Option key={"metal"}>Metal</Option>
-            <Option key={"hip hop"}>Hip Hop</Option>
-            <Option key={"rap"}>Rap</Option>
+            {this.state.allGenres.map(genre => <Option key={genre}>{genre}</Option>)}
           </Select>
         </Col>
       </Row >
@@ -133,8 +126,8 @@ class MySteps extends Component {
   ThirdStepContent = () => {
     return (
       <Row className={`${this.state.current !== 2 && "d-none"} mt-5`} justify="space-between">
-        {Object.keys(this.state.features).map((name, i) =>
-          <Col lg={10} span={24}>
+        {Object.keys(this.state.features).sort().map((name, i) =>
+          <Col key={i} lg={10} span={24}>
             <Row>
               <Col sm={7} xs={7}>
                 <Form.Item name={name} label={name[0].toUpperCase() + name.substr(1)}></Form.Item>
