@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/song-recommender/static/css/main.81e93f3f.chunk.css",
-    "main.js": "/song-recommender/static/js/main.2ae52743.chunk.js",
-    "main.js.map": "/song-recommender/static/js/main.2ae52743.chunk.js.map",
+    "main.css": "/song-recommender/static/css/main.d4e28440.chunk.css",
+    "main.js": "/song-recommender/static/js/main.33c9534c.chunk.js",
+    "main.js.map": "/song-recommender/static/js/main.33c9534c.chunk.js.map",
     "runtime-main.js": "/song-recommender/static/js/runtime-main.76934b7d.js",
     "runtime-main.js.map": "/song-recommender/static/js/runtime-main.76934b7d.js.map",
-    "static/css/2.6a67ccd3.chunk.css": "/song-recommender/static/css/2.6a67ccd3.chunk.css",
-    "static/js/2.8e50ec15.chunk.js": "/song-recommender/static/js/2.8e50ec15.chunk.js",
-    "static/js/2.8e50ec15.chunk.js.map": "/song-recommender/static/js/2.8e50ec15.chunk.js.map",
+    "static/css/2.edaafc13.chunk.css": "/song-recommender/static/css/2.edaafc13.chunk.css",
+    "static/js/2.104ffde9.chunk.js": "/song-recommender/static/js/2.104ffde9.chunk.js",
+    "static/js/2.104ffde9.chunk.js.map": "/song-recommender/static/js/2.104ffde9.chunk.js.map",
     "index.html": "/song-recommender/index.html",
-    "precache-manifest.0017c9bbe36b97ba6687d2b7e6508c98.js": "/song-recommender/precache-manifest.0017c9bbe36b97ba6687d2b7e6508c98.js",
+    "precache-manifest.aa583b158af8f4c5ad929bb58de1e365.js": "/song-recommender/precache-manifest.aa583b158af8f4c5ad929bb58de1e365.js",
     "service-worker.js": "/song-recommender/service-worker.js",
-    "static/css/2.6a67ccd3.chunk.css.map": "/song-recommender/static/css/2.6a67ccd3.chunk.css.map",
-    "static/css/main.81e93f3f.chunk.css.map": "/song-recommender/static/css/main.81e93f3f.chunk.css.map",
-    "static/js/2.8e50ec15.chunk.js.LICENSE.txt": "/song-recommender/static/js/2.8e50ec15.chunk.js.LICENSE.txt",
-    "static/media/icofont.min.css": "/song-recommender/static/media/icofont.f6ab04ae.woff"
+    "static/css/2.edaafc13.chunk.css.map": "/song-recommender/static/css/2.edaafc13.chunk.css.map",
+    "static/css/main.d4e28440.chunk.css.map": "/song-recommender/static/css/main.d4e28440.chunk.css.map",
+    "static/js/2.104ffde9.chunk.js.LICENSE.txt": "/song-recommender/static/js/2.104ffde9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.76934b7d.js",
-    "static/css/2.6a67ccd3.chunk.css",
-    "static/js/2.8e50ec15.chunk.js",
-    "static/css/main.81e93f3f.chunk.css",
-    "static/js/main.2ae52743.chunk.js"
+    "static/css/2.edaafc13.chunk.css",
+    "static/js/2.104ffde9.chunk.js",
+    "static/css/main.d4e28440.chunk.css",
+    "static/js/main.33c9534c.chunk.js"
   ]
 }
