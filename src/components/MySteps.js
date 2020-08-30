@@ -13,7 +13,7 @@ class MySteps extends Component {
     steps: [{ title: "Liked Genres" }, { title: "Disliked Genres" }, { title: "Features" }],
     likedGenres: [],
     dislikedGenres: [],
-    features: { danceability: 0, energy: 0, mode: 0, speechiness: 0, acousticness: 0, instrumentalness: 0, liveness: 0, valence: 0 },
+    features: { danceability: 5, energy: 5, mode: 5, speechiness: 5, acousticness: 5, instrumentalness: 5, liveness: 5, valence: 5 },
     loading: false,
     done: false,
     playlist: [],
